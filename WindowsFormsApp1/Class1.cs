@@ -12,20 +12,22 @@ namespace WindowsFormsApp1
     public class Class1
     {
        
-        public void retirar(Button b1, Button b2,Panel p1)
+        public void retirar(Button b1, Button b2, Button b3,Panel p1)
         {
 
             b1.Visible = false;
             b2.Visible = true;
+            b3.Visible = true;
             p1.BackColor = Color.Red;
 
         }
 
-        public void devolver(Button b1, Button b2, Panel p1)
+        public void devolver(Button b1, Button b2, Button b3, Panel p1)
         {
 
             b2.Visible = false;
             b1.Visible = true;
+            b3.Visible = false;
             p1.BackColor = Color.Lime;
 
         }
